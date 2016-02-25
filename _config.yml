@@ -13,12 +13,12 @@ author: Mudit Gupta
 # edit this section with your information
 # biomadeira.github.io - all contents run on /vitae/
 # for a normal use at the base of the server change it to "/"
-baseurl: /
+baseurl: /resume/
 title: Mudit Gupta | Resume | Portfolio | Curriculum Vitae
 name: Mudit Gupta
 email: muditgupta44@gmail.com
 email_full: mailto:muditgupta44@gmail.com
-website: muditgupta.co.in
+website: mudit44.github.io
 website_full: https://mudit44.github.io/
 github: mudit44
 twitter: muditgupta44
