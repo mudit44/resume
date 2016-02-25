@@ -1,0 +1,35 @@
+highlighter: pygments
+markdown: rdiscount
+rdiscount:
+  extensions: [smart]
+permalink: /:title.html
+paginate: 5
+gems: [jekyll-paginate]
+port: 4000
+safe: true
+url: http://biomadeira.github.io/vitae
+author: Fábio Madeira
+
+# edit this section with your information
+# biomadeira.github.io - all contents run on /vitae/
+# for a normal use at the base of the server change it to "/"
+baseurl: /
+title: Mudit Gupta | Resume | Portfolio | Curriculum Vitae
+name: Mudit Gupta
+email: muditgupta44@gmail.com
+email_full: mailto:muditgupta44@gmail.com
+website: muditgupta.co.in
+website_full: https://mudit44.github.io/
+github: mudit44
+twitter: muditgupta44
+tel: +91 9694 838382
+tel_full: tel:+91-9694838382
+google_maps: 'https://www.google.co.in/maps/place/Gupta+Dental+Clinic+and+Cure+Centre/@25.1346638,75.845248,17z/data=!3m1!4b1!4m2!3m1!1s0x396f84e478365b37:0xa38e46e6aac37c70?hl=en'
+address: MPB- 54, Mahavir Nagar 1st, Kota, Rajasthan  
+postcode: 324005
+city: Kota
+country: India
+google_analytics: UA-69300817-1
+
+# needed for travis-ci build
+exclude: [vendor]
