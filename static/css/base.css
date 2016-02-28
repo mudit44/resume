@@ -202,7 +202,6 @@
    -webkit-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
    -moz-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
    box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
-   text-shadow: #ffffff 0 1px 0;
    color: #ffffff;
    font-size: 17px;
    font-family: helvetica, serif;
@@ -211,7 +210,6 @@
    }
 .btn1:hover {
    border: 4px solid #E9573F;
-   text-shadow: #ffffff 0 1px 0;
    background: #E9573F;
    background: -webkit-gradient(linear, left top, left bottom, from(#E9573F), to(#E9573F));
    background: -webkit-linear-gradient(top, #E9573F, #E9573F);
@@ -222,7 +220,6 @@
    color: #fff;
    }
 .btn1:active {
-   text-shadow: #ffffff 0 1px 0;
    border: 4px solid #E9573F;
    background: #E9573F;
    background: -webkit-gradient(linear, left top, left bottom, from(#E9573F), to(#E9573F));
