@@ -8,29 +8,16 @@
 */
 
 
-/* Table of Contents
-==================================================
-    #Base 960 Grid
-    #Tablet (Portrait)
-    #Mobile (Portrait)
-    #Mobile (Landscape)
-    #Clearing */
-
-
-
-/* #Base 960 Grid
-================================================== */
-
     .container                                  { position: relative; width: 960px; margin: 0 auto; padding: 0; }
     .container .column,
     .container .columns                         { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
     .row                                        { margin-bottom: 20px; }
 
-    /* Nested Column Classes */
+    
     .column.alpha, .columns.alpha               { margin-left: 0; }
     .column.omega, .columns.omega               { margin-right: 0; }
 
-    /* Base Grid */
+    
     .container .one.column,
     .container .one.columns                     { width: 40px;  }
     .container .two.columns                     { width: 100px; }
@@ -52,7 +39,7 @@
     .container .one-third.column                { width: 300px; }
     .container .two-thirds.column               { width: 620px; }
 
-    /* Offsets */
+    
     .container .offset-by-one                   { padding-left: 60px;  }
     .container .offset-by-two                   { padding-left: 120px; }
     .container .offset-by-three                 { padding-left: 180px; }
@@ -71,10 +58,6 @@
 
 
 
-/* #Tablet (Portrait)
-================================================== */
-
-    /* Note: Design for a width of 768px */
 
     @media only screen and (min-width: 768px) and (max-width: 959px) {
         .container                                  { width: 768px; }
@@ -105,7 +88,7 @@
         .container .one-third.column                { width: 236px; }
         .container .two-thirds.column               { width: 492px; }
 
-        /* Offsets */
+        
         .container .offset-by-one                   { padding-left: 48px; }
         .container .offset-by-two                   { padding-left: 96px; }
         .container .offset-by-three                 { padding-left: 144px; }
@@ -124,10 +107,6 @@
     }
 
 
-/*  #Mobile (Portrait)
-================================================== */
-
-    /* Note: Design for a width of 320px */
 
     @media only screen and (max-width: 767px) {
         .container { width: 300px; }
@@ -154,7 +133,7 @@
         .container .one-third.column,
         .container .two-thirds.column  { width: 300px; }
 
-        /* Offsets */
+        
         .container .offset-by-one,
         .container .offset-by-two,
         .container .offset-by-three,
@@ -174,10 +153,6 @@
     }
 
 
-/* #Mobile (Landscape)
-================================================== */
-
-    /* Note: Design for a width of 480px */
 
     @media only screen and (min-width: 480px) and (max-width: 767px) {
         .container { width: 420px; }
@@ -206,14 +181,10 @@
     }
 
 
-/* #Clearing
-================================================== */
 
-    /* Self Clearing Goodness */
     .container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
 
-    /* Use clearfix class on parent to clear nested columns,
-    or wrap each row of columns in a <div class="row"> */
+    
     .clearfix:before,
     .clearfix:after,
     .row:before,
@@ -231,7 +202,7 @@
     .clearfix {
       zoom: 1; }
 
-    /* You can also use a <br class="clear" /> to clear columns */
+    
     .clear {
       clear: both;
       display: block;

@@ -7,23 +7,6 @@
 * 6/20/2012
 */
 
-
-/* Table of Content
-==================================================
-	#Reset & Basics
-	#Basic Styles
-	#Site Styles
-	#Typography
-	#Links
-	#Lists
-	#Images
-	#Buttons
-	#Forms
-	#Misc */
-
-
-/* #Reset & Basics (Inspired by E. Meyers)
-================================================== */
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
@@ -48,19 +31,14 @@
 		border-spacing: 0; }
 
 
-/* #Basic Styles
-================================================== */
 	body {
 		background: #fff;
 		font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		color: #444;
-		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+		-webkit-font-smoothing: antialiased;
 		-webkit-text-size-adjust: 100%;
  }
 
-
-/* #Typography
-================================================== */
 	h1, h2, h3, h4, h5, h6 {
 		color: #181818;
 		font-family: "Georgia", "Times New Roman", serif;
@@ -82,7 +60,7 @@
 	strong { font-weight: bold; color: #333; }
 	small { font-size: 80%; }
 
-/*	Blockquotes  */
+
 	blockquote, blockquote p { font-size: 17px; line-height: 24px; color: #777; font-style: italic; }
 	blockquote { margin: 0 0 20px; padding: 9px 20px 0 19px; border-left: 1px solid #ddd; }
 	blockquote cite { display: block; font-size: 12px; color: #555; }
@@ -92,15 +70,11 @@
 	hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
 
 
-/* #Links
-================================================== */
 	a, a:visited { color: #333; text-decoration: underline; outline: 0; }
 	a:hover, a:focus { color: #000; }
 	p a, p a:visited { line-height: inherit; }
 
 
-/* #Lists
-================================================== */
 	ul, ol { margin-bottom: 20px; }
 	ul { list-style: none outside; }
 	ol { list-style: decimal; }
@@ -116,23 +90,19 @@
 	ul.large li { line-height: 21px; }
 	li p { line-height: 21px; }
 
-/* #Images
-================================================== */
 
 	img.scale-with-grid {
 		max-width: 100%;
 		height: auto; }
 
 
-/* #Buttons
-================================================== */
 
 	.button,
 	button,
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"] {
-		background: #eee; /* Old browsers */
+		background: #eee; 
 		background: #eee -moz-linear-gradient(top, rgba(255,255,255,.2) 0%, rgba(0,0,0,.2) 100%); /* FF3.6+ */
 		background: #eee -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,.2)), color-stop(100%,rgba(0,0,0,.2))); /* Chrome,Safari4+ */
 		background: #eee -webkit-linear-gradient(top, rgba(255,255,255,.2) 0%,rgba(0,0,0,.2) 100%); /* Chrome10+,Safari5.1+ */
@@ -198,7 +168,7 @@
 		padding-right: 0 !important;
 		text-align: center; }
 
-	/* Fix for odd Mozilla border & padding issues */
+	
 	button::-moz-focus-inner,
 	input::-moz-focus-inner {
     border: 0;
@@ -233,9 +203,9 @@
    vertical-align: middle;
    }
 .btn1:hover {
-   border: 4px solid #27a822;
+   border: 4px solid #E9573F;
    text-shadow: #ffffff 0 1px 0;
-   background: #27a822;
+   background: #E9573F;
    background: -webkit-gradient(linear, left top, left bottom, from(#27a822), to(#27a822));
    background: -webkit-linear-gradient(top, #27a822, #27a822);
    background: -moz-linear-gradient(top, #27a822, #27a822);
@@ -246,8 +216,8 @@
    }
 .btn1:active {
    text-shadow: #ffffff 0 1px 0;
-   border: 4px solid #27a822;
-   background: #27a822;
+   border: 4px solid #E9573F;
+   background: #E9573F;
    background: -webkit-gradient(linear, left top, left bottom, from(#27a822), to(#27a822));
    background: -webkit-linear-gradient(top, #27a822, #27a822);
    background: -moz-linear-gradient(top, #27a822, #27a822);
@@ -258,8 +228,6 @@
    }
 
 /*==============================================================================================================*/
-/* #Forms
-================================================== */
 
 	form {
 		margin-bottom: 20px; }
@@ -312,8 +280,6 @@
 		font-size: 13px;
 		color: #444; }
 
-/* #Misc
-================================================== */
 	.remove-bottom { margin-bottom: 0 !important; }
 	.half-bottom { margin-bottom: 10px !important; }
 	.add-bottom { margin-bottom: 20px !important; }
