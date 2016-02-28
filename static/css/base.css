@@ -187,14 +187,14 @@
 /*====================================================================New Button================================ */
 
 .btn1 {
-   border: 4px solid #23b51b;
-   background: #23b51b;
-   background: -webkit-gradient(linear, left top, left bottom, from(#23b51b), to(#23b51b));
-   background: -webkit-linear-gradient(top, #23b51b, #23b51b);
-   background: -moz-linear-gradient(top, #23b51b, #23b51b);
-   background: -ms-linear-gradient(top, #23b51b, #23b51b);
-   background: -o-linear-gradient(top, #23b51b, #23b51b);
-   background-image: -ms-linear-gradient(top, #23b51b 0%, #23b51b 100%);
+   border: 4px solid #E9573F;
+   background: #E9573F;
+   background: -webkit-gradient(linear, left top, left bottom, from(#E9573F), to(#E9573F));
+   background: -webkit-linear-gradient(top, #E9573F, #E9573F);
+   background: -moz-linear-gradient(top, #E9573F, #E9573F);
+   background: -ms-linear-gradient(top, #E9573F, #E9573F);
+   background: -o-linear-gradient(top, #E9573F, #E9573F);
+   background-image: -ms-linear-gradient(top, #E9573F 0%, #E9573F 100%);
    padding: 6.5px 13px;
    -webkit-border-radius: 0px;
    -moz-border-radius: 0px;
@@ -233,8 +233,6 @@
    background-image: -ms-linear-gradient(top, #E9573F 0%, #E9573F 100%);
    color: #fff;
    }
-
-
 
 	form {
 		margin-bottom: 20px; }
