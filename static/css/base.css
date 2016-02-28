@@ -206,24 +206,24 @@
    border: 4px solid #E9573F;
    text-shadow: #ffffff 0 1px 0;
    background: #E9573F;
-   background: -webkit-gradient(linear, left top, left bottom, from(#27a822), to(#27a822));
-   background: -webkit-linear-gradient(top, #27a822, #27a822);
-   background: -moz-linear-gradient(top, #27a822, #27a822);
-   background: -ms-linear-gradient(top, #27a822, #27a822);
-   background: -o-linear-gradient(top, #27a822, #27a822);
-   background-image: -ms-linear-gradient(top, #27a822 0%, #27a822 100%);
+   background: -webkit-gradient(linear, left top, left bottom, from(#E9573F), to(#E9573F));
+   background: -webkit-linear-gradient(top, #E9573F, #E9573F);
+   background: -moz-linear-gradient(top, #E9573F, #E9573F);
+   background: -ms-linear-gradient(top, #E9573F, #E9573F);
+   background: -o-linear-gradient(top, #E9573F, #E9573F);
+   background-image: -ms-linear-gradient(top, #E9573F 0%, #E9573F 100%);
    color: #fff;
    }
 .btn1:active {
    text-shadow: #ffffff 0 1px 0;
    border: 4px solid #E9573F;
    background: #E9573F;
-   background: -webkit-gradient(linear, left top, left bottom, from(#27a822), to(#27a822));
-   background: -webkit-linear-gradient(top, #27a822, #27a822);
-   background: -moz-linear-gradient(top, #27a822, #27a822);
-   background: -ms-linear-gradient(top, #27a822, #27a822);
-   background: -o-linear-gradient(top, #27a822, #27a822);
-   background-image: -ms-linear-gradient(top, #27a822 0%, #27a822 100%);
+   background: -webkit-gradient(linear, left top, left bottom, from(#E9573F), to(#E9573F));
+   background: -webkit-linear-gradient(top, #E9573F, #E9573F);
+   background: -moz-linear-gradient(top, #E9573F, #E9573F);
+   background: -ms-linear-gradient(top, #E9573F, #E9573F);
+   background: -o-linear-gradient(top, #E9573F, #E9573F);
+   background-image: -ms-linear-gradient(top, #E9573F 0%, #E9573F 100%);
    color: #fff;
    }
 
